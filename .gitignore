@@ -1,0 +1,63 @@
+#User-specific files found in top level directory
+
+alphaOneHourApp/alphaOneHourApp.wcp_settings
+alphaOneHourApp/alphaOneHourApp.recent_files
+alphaOneHourApp/alphaOneHourApp.DatabaseExplorer
+alphaOneHourApp/alphaOneHourApp.MUF
+alphaOneHourApp/alphaOneHourApp.WebPublishHistory
+alphaOneHourApp/alphaOneHourApp.Default.History
+#alphaOneHourApp/alphaOneHourApp.<user>.DefWebProject
+#alphaOneHourApp/alphaOneHourApp.<user>.RecentWebProject
+
+# Using a Filesystem Library (A5Lib)
+alphaOneHourApp/alphaOneHourApp.ALM
+alphaOneHourApp/alphaOneHourApp.Alx
+alphaOneHourApp/alphaOneHourApp.MUF
+*.old_alb
+*.old_alm
+*.old_alx
+
+#Recommended. Files under alphaOneHourApp/alphaOneHourApp.A5Lib.resources
+*.a5settings
+
+#Folders under top level
+.backup*                              #contains backup files
+.history                              #contains history files
+
+#The following files and folders are found in  a Web Project folder.
+#It is recommended that these files be excluded from source control.
+
+#Files in the web project folder for each project
+*.tmp
+componentTypeCache
+lastSelectedProfile
+
+#Folders under the web project folder and any subfolders under these folders
+__backup.backup                        #contains component backups
+__deleted.deleted                      #contains deleted files
+__undo.undo                            #contains undo history
+__iispublishhistory.iispublishhistory  #contains IIS publish history
+__staging.staging                      #staging folder for publishing
+
+
+#The following files and folders are also found in a Web Project folder.
+#These files can be included or excluded from source control at developer discretion
+
+# These are optional (but suggested), and can be included in source control 
+# as they are not unique to a user.  While they are regenerated at publish, 
+# they should be unique to the component.
+*._a5wcmp_manifest
+*._a5wcmp_metadata
+*._a5wcmp_compiled
+
+#These are usually the same for multiple users, but may be unique.
+#Uncomment to exclude from source control
+
+#ProjectProperties.projectProperties    #contains all of the project properties
+#pages.SecuritySettings                 #page and component security settings
+#Project.SecuritySettings               #Security settings for project
+#DataLink.SecuritySettings              #Connection data to any SQL security tables
+#project.settings                       #All publish settings
+
+#Uncomment to exclude PhoneGap project files from source control
+#PhoneGapProjects                       #contains PhoneGap project files
